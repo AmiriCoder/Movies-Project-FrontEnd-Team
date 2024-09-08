@@ -1,0 +1,19 @@
+* {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Manrope", sans-serif;
+}
+/* ExploreSection */
+.SectionExplore {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.SectionExplore div h1 {
+    color: white;
+    margin-left: -480px;
+}
+.SectionExplore div p {
+    color: white;
+}
