@@ -1,0 +1,231 @@
+.Frequently-Asked-Questions {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Frequently-Asked h1 {
+    color: white;
+}
+.Frequently-Asked p {
+    color: #999999;
+    font-size: 16px;
+}
+
+.flexer {
+    display: flex;
+}
+
+.Frequently-Asked button {
+    height: 50px;
+    width: 140px;
+    margin-left: 990px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: #E50000;
+    font-size: 13px;
+    border-radius: 8px;
+}
+
+
+.i1img {
+    height: 67px;
+    width: 62px;
+}
+
+.i2img {
+    height: 1px;
+    width: 500px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.q-box span {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+
+.Frequently-Main {
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 162px;
+    margin-right: 162px;
+}
+
+.left-box, .right-box {
+    display: flex;
+    flex-direction: column;
+    width: 48%; 
+}
+
+
+.boxx {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.q-box {
+    box-sizing: border-box;
+    display: flex;
+    width: 500px;
+    height: 70px;
+    align-items: center; 
+    justify-content: space-between; 
+    cursor: pointer; 
+}
+
+.plus-img {
+    height: 15px;
+    width: 15px;
+    margin-top: 7px;
+    margin-right: 10px; 
+}
+
+
+.q-box.new_back .answer-content {
+    display: block;
+}
+
+
+.answer-content {
+    display: none;
+    color: #999999;
+    font-size: 14px;
+    padding-left: 70px; 
+    margin-bottom: 15px;
+}
+
+
+.q-box.new_back + .answer-content {
+    display: block;
+}
+
+.answer-content {
+    max-width: 500px;
+    text-align: left;
+
+}
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+} */
+
+.pricing-section {
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #999;
+    margin-bottom: 30px;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.toggle-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.toggle-button.active {
+    background-color: white;
+    color: #111;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan-box {
+    background-color: #1A1A1A;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.plan-box div{
+    background-color: #1A1A1A;
+    margin-top: 45px;
+    display: flex;
+}
+
+.plan-box h2 {
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.plan-box p {
+    background-color: #1A1A1A;
+    color: #999;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.plan-box h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.plan-box span {
+    background-color: #1A1A1A;
+    font-size: 1rem;
+    color: #999;
+}
+
+.btn-trial, .btn-choose {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn-trial {
+
+    background-color: #141414;
+    color: white;
+    border: 1px solid #141414;
+}
+
+.btn-choose {
+    
+    background-color: #E50000;
+    color: white;
+    transition: background-color 0.3s ease;
+}
