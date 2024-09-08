@@ -32,7 +32,7 @@ $(document).ready(async function(){
     const data = await getdata();
     
     const genreName = data.genres;
-  
+    console.log(genreName)
     // Initialize carousel
     const carousel = $(".owl-carousel");
     genreName.forEach(name => {
@@ -44,7 +44,7 @@ $(document).ready(async function(){
                     <img src="./assets/Container.png" alt="">
                 </div>
                 <div class="cenareham">
-                    <h3>${genreName.name}</h3>
+                    <h3>${name.name}</h3>
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
@@ -54,7 +54,7 @@ $(document).ready(async function(){
     $('.owl-carousel').owlCarousel({
         
         loop:true,
-        margin: 20,
+        margin: -100,
         nav:true,
         responsive:{
             0:{
@@ -64,7 +64,7 @@ $(document).ready(async function(){
                 items:2
             },
             1000:{
-                items:4
+                items:5
             }
         }
     })
