@@ -9,11 +9,61 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    
+    margin-left: 500px;
 }
 .SectionExplore div h1 {
     color: white;
-    margin-left: -480px;
+    margin-left: -1000px;
+    margin-bottom: 30px;
 }
 .SectionExplore div p {
     color: white;
+    margin-left: -520px;
+}
+/* Explore_box */
+.Explore_box {
+    border-radius: 10px;
+    margin-top: 60px;
+    display: flex;
+    gap: 120px;
+    margin-left: -250px;
+}
+
+.Explore_box div h3{
+    color: white;
+    background-color: #262626;
+    
+}
+.Explore_box div i{
+    margin-top: 7px;
+    color: white;
+    background-color: #262626;
+}
+.cenareham {
+    padding: 30px;
+    display: flex;
+    gap: 80px;
+    background-color: #262626;
+    margin-top: 40px;
+
+}
+.boxes{
+    margin-top: -190px;
+    box-sizing: border-box;
+    width: 240px;
+    height: 340px;
+    
+    background-color: #262626;
+    border-radius: 10px;
+}
+.pics_of__Explorebox{
+    margin-top: 300px;
+    background-color: #262626;
+}
+.pics_of__Explorebox img{
+    
+    width: 193px;
+    height: 210px;
 }
