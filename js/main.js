@@ -61,7 +61,7 @@ $(document).ready(async function(){
     const genreName = data.genres;
     console.log(genreName)
     // Initialize carousel
-    const carousel = $(".owl-carousel-2");
+    const carousel = $(".owl-carousel");
     genreName.forEach(name => {
         
         // Append new item to the carousel
@@ -143,388 +143,388 @@ async function getdata2() {
 // movies of show_page
 
 
-$(document).ready(async function(){
-    const data = await getdata3();
+// $(document).ready(async function(){
+//     const data = await getdata3();
     
-    const genreName = data.genres;
-    console.log(genreName)
-    // Initialize carousel
-    const carousel = $(".owl-carousel-3");
-    genreName.forEach(name => {
+//     const genreName = data.genres;
+//     console.log(genreName)
+//     // Initialize carousel
+//     const carousel = $(".owl-carousel-3");
+//     genreName.forEach(name => {
         
-        // Append new item to the carousel
-        // carousel.append(`
-        carousel.append(`
-            <div class="boxes">
-                <div class="pics_of__Explorebox">
-                    <img src="./assets/hh.png" alt="">
-                </div>
-                <div class="cenareham">
-                    <img src=",/assets/tt.png" alt="">
-                </div>
-            </div>
-        `);
-    });
+//         // Append new item to the carousel
+//         // carousel.append(`
+//         carousel.append(`
+//             <div class="boxes">
+//                 <div class="pics_of__Explorebox">
+//                     <img src="./assets/hh.png" alt="">
+//                 </div>
+//                 <div class="cenareham">
+//                     <img src=",/assets/tt.png" alt="">
+//                 </div>
+//             </div>
+//         `);
+//     });
 
-    $('.owl-carousel').owlCarousel({
+//     $('.owl-carousel').owlCarousel({
         
-        loop:true,
-        margin: 0,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
-    })
-});
+//         loop:true,
+//         margin: 0,
+//         nav:true,
+//         responsive:{
+//             0:{
+//                 items:1
+//             },
+//             600:{
+//                 items:2
+//             },
+//             1000:{
+//                 items:4
+//             }
+//         }
+//     })
+// });
 
-async function getdata3() {
-    try {
-        const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
-        const data = await response.json();
-        console.log(data);
-        return data;
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function getdata3() {
+//     try {
+//         const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
+//         const data = await response.json();
+//         console.log(data);
+//         return data;
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
 
 
-$(document).ready(async function(){
-    const data = await getdata4();
+// $(document).ready(async function(){
+//     const data = await getdata4();
     
-    const genreName = data.genres;
-    console.log(genreName)
-    // Initialize carousel
-    const carousel = $(".owl-carousel-4");
-    genreName.forEach(name => {
+//     const genreName = data.genres;
+//     console.log(genreName)
+//     // Initialize carousel
+//     const carousel = $(".owl-carousel-4");
+//     genreName.forEach(name => {
         
-        // Append new item to the carousel
-        // carousel.append(`
-        carousel.append(`
-            <div class="boxes">
-                <div class="pics_of__Explorebox">
-                    <img src="./assets/Container.png" alt="">
-                </div>
-                <div class="cenareham">
-                    <h3>${name.name}</h3>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-        `);
-    });
+//         // Append new item to the carousel
+//         // carousel.append(`
+//         carousel.append(`
+//             <div class="boxes">
+//                 <div class="pics_of__Explorebox">
+//                     <img src="./assets/Container.png" alt="">
+//                 </div>
+//                 <div class="cenareham">
+//                     <h3>${name.name}</h3>
+//                     <i class="fa-solid fa-arrow-right"></i>
+//                 </div>
+//             </div>
+//         `);
+//     });
 
-    $('.owl-carousel').owlCarousel({
+//     $('.owl-carousel').owlCarousel({
         
-        loop:true,
-        margin: 0,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
-    })
-});
+//         loop:true,
+//         margin: 0,
+//         nav:true,
+//         responsive:{
+//             0:{
+//                 items:1
+//             },
+//             600:{
+//                 items:2
+//             },
+//             1000:{
+//                 items:4
+//             }
+//         }
+//     })
+// });
 
-async function getdata4() {
-    try {
-        const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
-        const data = await response.json();
-        console.log(data);
-        return data;
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function getdata4() {
+//     try {
+//         const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
+//         const data = await response.json();
+//         console.log(data);
+//         return data;
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
 
-$(document).ready(async function(){
-    const data = await getdata5();
+// $(document).ready(async function(){
+//     const data = await getdata5();
     
-    const genreName = data.genres;
-    console.log(genreName)
-    // Initialize carousel
-    const carousel = $(".owl-carousel-5");
-    genreName.forEach(name => {
+//     const genreName = data.genres;
+//     console.log(genreName)
+//     // Initialize carousel
+//     const carousel = $(".owl-carousel-5");
+//     genreName.forEach(name => {
         
-        // Append new item to the carousel
-        // carousel.append(`
-        carousel.append(`
-            <div class="boxes">
-                <div class="pics_of__Explorebox">
-                    <img src="./assets/Container.png" alt="">
-                </div>
-                <div class="cenareham">
-                    <h3>${name.name}</h3>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-        `);
-    });
+//         // Append new item to the carousel
+//         // carousel.append(`
+//         carousel.append(`
+//             <div class="boxes">
+//                 <div class="pics_of__Explorebox">
+//                     <img src="./assets/Container.png" alt="">
+//                 </div>
+//                 <div class="cenareham">
+//                     <h3>${name.name}</h3>
+//                     <i class="fa-solid fa-arrow-right"></i>
+//                 </div>
+//             </div>
+//         `);
+//     });
 
-    $('.owl-carousel').owlCarousel({
+//     $('.owl-carousel').owlCarousel({
         
-        loop:true,
-        margin: 0,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
-    })
-});
+//         loop:true,
+//         margin: 0,
+//         nav:true,
+//         responsive:{
+//             0:{
+//                 items:1
+//             },
+//             600:{
+//                 items:2
+//             },
+//             1000:{
+//                 items:4
+//             }
+//         }
+//     })
+// });
 
-async function getdata5() {
-    try {
-        const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
-        const data = await response.json();
-        console.log(data);
-        return data;
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function getdata5() {
+//     try {
+//         const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
+//         const data = await response.json();
+//         console.log(data);
+//         return data;
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
-$(document).ready(async function(){
-    const data = await getdata6();
+// $(document).ready(async function(){
+//     const data = await getdata6();
     
-    const genreName = data.genres;
-    console.log(genreName)
-    // Initialize carousel
-    const carousel = $(".owl-carousel-6");
-    genreName.forEach(name => {
+//     const genreName = data.genres;
+//     console.log(genreName)
+//     // Initialize carousel
+//     const carousel = $(".owl-carousel-6");
+//     genreName.forEach(name => {
         
-        // Append new item to the carousel
-        // carousel.append(`
-        carousel.append(`
-            <div class="boxes">
-                <div class="pics_of__Explorebox">
-                    <img src="./assets/Container.png" alt="">
-                </div>
-                <div class="cenareham">
-                    <h3>${name.name}</h3>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-        `);
-    });
+//         // Append new item to the carousel
+//         // carousel.append(`
+//         carousel.append(`
+//             <div class="boxes">
+//                 <div class="pics_of__Explorebox">
+//                     <img src="./assets/Container.png" alt="">
+//                 </div>
+//                 <div class="cenareham">
+//                     <h3>${name.name}</h3>
+//                     <i class="fa-solid fa-arrow-right"></i>
+//                 </div>
+//             </div>
+//         `);
+//     });
 
-    $('.owl-carousel').owlCarousel({
+//     $('.owl-carousel').owlCarousel({
         
-        loop:true,
-        margin: 0,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
-    })
-});
+//         loop:true,
+//         margin: 0,
+//         nav:true,
+//         responsive:{
+//             0:{
+//                 items:1
+//             },
+//             600:{
+//                 items:2
+//             },
+//             1000:{
+//                 items:4
+//             }
+//         }
+//     })
+// });
 
-async function getdata6() {
-    try {
-        const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
-        const data = await response.json();
-        console.log(data);
-        return data;
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function getdata6() {
+//     try {
+//         const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
+//         const data = await response.json();
+//         console.log(data);
+//         return data;
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
 
 
-$(document).ready(async function(){
-    const data = await getdata7();
+// $(document).ready(async function(){
+//     const data = await getdata7();
     
-    const genreName = data.genres;
-    console.log(genreName)
-    // Initialize carousel
-    const carousel = $(".owl-carousel-7");
-    genreName.forEach(name => {
+//     const genreName = data.genres;
+//     console.log(genreName)
+//     // Initialize carousel
+//     const carousel = $(".owl-carousel-7");
+//     genreName.forEach(name => {
         
-        // Append new item to the carousel
-        // carousel.append(`
-        carousel.append(`
-            <div class="boxes">
-                <div class="pics_of__Explorebox">
-                    <img src="./assets/Container.png" alt="">
-                </div>
-                <div class="cenareham">
-                    <h3>${name.name}</h3>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-        `);
-    });
+//         // Append new item to the carousel
+//         // carousel.append(`
+//         carousel.append(`
+//             <div class="boxes">
+//                 <div class="pics_of__Explorebox">
+//                     <img src="./assets/Container.png" alt="">
+//                 </div>
+//                 <div class="cenareham">
+//                     <h3>${name.name}</h3>
+//                     <i class="fa-solid fa-arrow-right"></i>
+//                 </div>
+//             </div>
+//         `);
+//     });
 
-    $('.owl-carousel').owlCarousel({
+//     $('.owl-carousel').owlCarousel({
         
-        loop:true,
-        margin: 0,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
-    })
-});
+//         loop:true,
+//         margin: 0,
+//         nav:true,
+//         responsive:{
+//             0:{
+//                 items:1
+//             },
+//             600:{
+//                 items:2
+//             },
+//             1000:{
+//                 items:4
+//             }
+//         }
+//     })
+// });
 
-async function getdata7() {
-    try {
-        const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
-        const data = await response.json();
-        console.log(data);
-        return data;
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function getdata7() {
+//     try {
+//         const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
+//         const data = await response.json();
+//         console.log(data);
+//         return data;
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
 
 
-$(document).ready(async function(){
-    const data = await getdata8();
+// $(document).ready(async function(){
+//     const data = await getdata8();
     
-    const genreName = data.genres;
-    console.log(genreName)
-    // Initialize carousel
-    const carousel = $(".owl-carousel-8");
-    genreName.forEach(name => {
+//     const genreName = data.genres;
+//     console.log(genreName)
+//     // Initialize carousel
+//     const carousel = $(".owl-carousel-8");
+//     genreName.forEach(name => {
         
-        // Append new item to the carousel
-        // carousel.append(`
-        carousel.append(`
-            <div class="boxes">
-                <div class="pics_of__Explorebox hh">
-                    <img src="./assets/Container.png" alt="">
-                </div>
-                <div class="cenareham">
-                    <h3>${name.name}</h3>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-        `);
-    });
+//         // Append new item to the carousel
+//         // carousel.append(`
+//         carousel.append(`
+//             <div class="boxes">
+//                 <div class="pics_of__Explorebox hh">
+//                     <img src="./assets/Container.png" alt="">
+//                 </div>
+//                 <div class="cenareham">
+//                     <h3>${name.name}</h3>
+//                     <i class="fa-solid fa-arrow-right"></i>
+//                 </div>
+//             </div>
+//         `);
+//     });
 
-    $('.owl-carousel').owlCarousel({
+//     $('.owl-carousel').owlCarousel({
         
-        loop:true,
-        margin: 0,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
-    })
-});
+//         loop:true,
+//         margin: 0,
+//         nav:true,
+//         responsive:{
+//             0:{
+//                 items:1
+//             },
+//             600:{
+//                 items:2
+//             },
+//             1000:{
+//                 items:4
+//             }
+//         }
+//     })
+// });
 
-async function getdata8() {
-    try {
-        const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
-        const data = await response.json();
-        console.log(data);
-        return data;
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function getdata8() {
+//     try {
+//         const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
+//         const data = await response.json();
+//         console.log(data);
+//         return data;
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
 
 
-$(document).ready(async function(){
-    const data = await getdata9();
+// $(document).ready(async function(){
+//     const data = await getdata9();
     
-    const genreName = data.genres;
-    console.log(genreName)
-    // Initialize carousel
-    const carousel = $(".owl-carousel-9");
-    genreName.forEach(name => {
+//     const genreName = data.genres;
+//     console.log(genreName)
+//     // Initialize carousel
+//     const carousel = $(".owl-carousel-9");
+//     genreName.forEach(name => {
         
-        // Append new item to the carousel
-        // carousel.append(`
-        carousel.append(`
-            <div class="boxes">
-                <div class="pics_of__Explorebox">
-                    <img src="./assets/Container.png" alt="">
-                </div>
-                <div class="cenareham">
-                    <h3>${name.name}</h3>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-        `);
-    });
+//         // Append new item to the carousel
+//         // carousel.append(`
+//         carousel.append(`
+//             <div class="boxes">
+//                 <div class="pics_of__Explorebox">
+//                     <img src="./assets/Container.png" alt="">
+//                 </div>
+//                 <div class="cenareham">
+//                     <h3>${name.name}</h3>
+//                     <i class="fa-solid fa-arrow-right"></i>
+//                 </div>
+//             </div>
+//         `);
+//     });
 
-    $('.owl-carousel-9').owlCarousel({
+//     $('.owl-carousel-9').owlCarousel({
         
-        loop:true,
-        margin: 0,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
-    })
-});
+//         loop:true,
+//         margin: 0,
+//         nav:true,
+//         responsive:{
+//             0:{
+//                 items:1
+//             },
+//             600:{
+//                 items:2
+//             },
+//             1000:{
+//                 items:4
+//             }
+//         }
+//     })
+// });
 
-async function getdata9() {
-    try {
-        const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
-        const data = await response.json();
-        console.log(data);
-        return data;
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function getdata9() {
+//     try {
+//         const response = await fetch("https://api.themoviedb.org/3/genre/movie/list?language=en", options);
+//         const data = await response.json();
+//         console.log(data);
+//         return data;
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
