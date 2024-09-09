@@ -1,13 +1,16 @@
 
 .image-header{
-    background-image: url(/images/1.jpg);
+    background-image: url(../Sub\ Container.png);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
+    
 }
 
 .navbar{
+    background-color: transparent;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -30,27 +33,36 @@
     border-radius: 12px;
     padding: 20px;
     color: white;
-    background-color:black;
+    background-color:#1E1E1E;
 }
 
 li{
     list-style-type: none;
 }
 .btn{
-    background-color: #1A1A1A;
+    background-color: #1E1E1E;
 
     border-radius: 8px;
     color: white;
     padding: 10px;
     border-style: none;
 }
+.img2 {
+    display: flex;
+    gap: 30px;
+}
+
+.img2 a i{
+    color: white;
+}
 .img{
+   
     display: flex;
     width:199px ;
     height:60px ;
     margin: 10px;
     justify-content:center;
-    align-items: first baseline;
+    align-items: baseline;
 }
 .txt{
     display: flex;
@@ -58,7 +70,7 @@ li{
     margin-bottom: 30px;
     color: white;
     margin-top:550px;
-    font-size: 58px;
+    font-size: 48px;
    
 }
 
@@ -81,12 +93,15 @@ li{
     border-radius: 8px;
 }
 #color{
-    background-color: black;
+
+    
+    background-color: #1E1E1E;
 }
 .button{
+
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 90px;
 }
 
