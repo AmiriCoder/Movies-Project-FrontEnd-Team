@@ -24,9 +24,7 @@ elements.forEach((element) => {
 const hamburger = document.querySelector('.hamburger');
 const navbar = document.querySelector('.navbar');
 
-hamburger.addEventListener('click', () => {
-    navbar.classList.toggle('active');
-});
+
 
 
 function changeImageForMobile() {
@@ -109,7 +107,9 @@ async function getdata2() {
     }
 }
 
-
+hamburger.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+});
 // const apis = [{
 //     url: 'https...',
 //     containerEl: document.querySelector("...."),
