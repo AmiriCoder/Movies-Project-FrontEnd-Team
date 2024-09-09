@@ -1,4 +1,4 @@
-const elements = document.querySelectorAll(".ma");
+const elements = document.querySelectorAll(".plus-img");
 elements.forEach((element) => {
   element.addEventListener("click", function() {
     const box = this.closest(".q-box");
@@ -21,9 +21,32 @@ elements.forEach((element) => {
   });
 });
 
+const hamburger = document.querySelector('.hamburger');
+const navbar = document.querySelector('.navbar');
+
+hamburger.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+});
 
 
-// movies of desktop
+function changeImageForMobile() {
+    const playButtonImg = document.getElementById('play-button');
+    const sl = document.getElementById('sl');
+    
+    if (window.innerWidth <= 768) {
+        sl.style = "width: 600px; height: 600px; border-radius: 20px;"
+        playButtonImg.src = 'assets/btn-mobile.png';  
+        playButtonImg.style = 'height: 110px; width: 270px; background: transparent;'
+    } else {
+        sl.style = "width: 1208px; height: 600px; border-radius: 20px;"
+        playButtonImg.src = 'assets/play.png'; 
+        playButtonImg.style = 'height: 43px; width: 320px; background: transparent;'
+    }
+}
+
+window.addEventListener('load', changeImageForMobile);
+window.addEventListener('resize', changeImageForMobile);
+
 const options = {
     method: 'GET',
     headers: {
