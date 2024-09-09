@@ -30,7 +30,8 @@
 .Explore_box {
     border-radius: 10px;
     display: flex;
-    gap: 120px;
+    
+    gap: 20px;
     margin-left: 250px;
     
 }
@@ -53,15 +54,22 @@
     margin-top: 40px;
 
 }
+.cenareham img{
+    width: 170px;
+    height: 20px;
+}
+
 .boxes{
     margin-top: -190px;
     box-sizing: border-box;
     width: 240px;
     height: 380px;
-    
+   
     background-color: #262626;
     border-radius: 10px;
 }
+
+
 .pics_of__Explorebox{
     border-radius: 10px;
     padding: 20px;
@@ -278,7 +286,7 @@
     position: absolute;
     margin-bottom: -30px;
     left: 1255px;
-    bottom: -3170px;
+    bottom: -3050px;
     gap: 10px;
     
 
@@ -352,6 +360,10 @@
     margin-left: 100px;
     
     
+}
+.Explore_box{
+    display: flex !important;
+    gap: 100px;
 }
 
 .Explore_box2 .owl-nav{
