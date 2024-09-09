@@ -8,7 +8,7 @@
 .SectionExplore {
     display: flex;
     flex-direction: column;
-    width: 1400px;
+    width: 1300px;
     overflow: hidden;
     text-align: center;
 margin-left: 180px;
@@ -17,11 +17,12 @@ margin-left: 180px;
 }
 .SectionExplore div h2 {
     
-    margin-left: -470px;
+    margin-left: -860px;
     color: white;
     margin-bottom: 30px;
 }
 .SectionExplore div p {
+    margin-left: -380px;
     color: #999999;
    
     
