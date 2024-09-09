@@ -1,4 +1,4 @@
-const elements = document.querySelectorAll(".plus-img");
+const elements = document.querySelectorAll(".ma");
 elements.forEach((element) => {
   element.addEventListener("click", function() {
     const box = this.closest(".q-box");
