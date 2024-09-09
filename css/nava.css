@@ -156,7 +156,7 @@
     height: 183px;
     border-radius: 12px;
     padding: 20px;
-    background: linear-gradient(25deg, #0F0F0F 78%, #E50000 100%);
+    background: linear-gradient(40deg, rgba(0,0,0,1) 68%, rgb(42,7,7) 100%, rgba(45,2,2,1) 100%);
     margin-bottom: 20px;
 }
 .WeProvide_text{
