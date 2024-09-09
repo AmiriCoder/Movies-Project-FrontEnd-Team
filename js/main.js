@@ -20,6 +20,10 @@ elements.forEach((element) => {
     }
   });
 });
+
+
+
+// movies of desktop
 const options = {
     method: 'GET',
     headers: {
@@ -54,7 +58,7 @@ $(document).ready(async function(){
     $('.owl-carousel').owlCarousel({
         
         loop:true,
-        margin: -100,
+        margin: 0,
         nav:true,
         responsive:{
             0:{
@@ -64,7 +68,7 @@ $(document).ready(async function(){
                 items:2
             },
             1000:{
-                items:5
+                items:4
             }
         }
     })
@@ -80,3 +84,32 @@ async function getdata() {
         console.log(error);
     }
 }
+
+
+// const apis = [{
+//     url: 'https...',
+//     containerEl: document.querySelector("...."),
+//     keys: ["name", "id"]
+// }, {
+//     url: 'https...',
+//     containerEl: document.querySelector("....")
+// },{
+//     url: 'https...',
+//     containerEl: document.querySelector("....")
+// },{
+//     url: 'https...',
+//     containerEl: document.querySelector("....")
+// },{
+//     url: 'https...',
+//     containerEl: document.querySelector("....")
+// },{
+//     url: 'https...',
+//     containerEl: document.querySelector("....")
+// },]
+// async function createMovies(url, containerEl, keys) {
+//     const res = await fetch(url)
+//     keys.forEach(item => {
+//         item
+//     })
+//     containerEl.appencChild(..)
+// }

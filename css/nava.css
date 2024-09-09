@@ -195,7 +195,7 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-    
+    margin-top: 100px;
 }
 .footer_pos {
     display: flex;
@@ -294,6 +294,136 @@
 }
 
 .pos_icon_footer2 i{
+    margin-left: 10px;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+    
+    
+}
+/* show page */
+/* movies */
+
+.line{
+    padding: 0px;
+    margin-left: -200px;
+}
+
+.objects{
+    align-items: center;
+    width: 1240px;
+    height: inherit;
+    margin-top: 50px;
+    border: 2px solid #262626;
+    margin-left: 250px;
+    margin-bottom: 40px;
+}
+.objects button{
+    background-color: #E50000;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+.SectionExplore2 {
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    overflow: hidden;
+    color: white;
+    gap: 100px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.SectionExplore2 .w{
+    width: 400px;
+}
+
+.left{
+    margin-top: -100px;
+    margin-left: 100px;
+    
+    
+}
+
+.Explore_box2 .owl-nav{
+    margin-right: -130px;
+    
+    
+}
+.Explore_box2 .owl-dots{
+    margin-right: -129px;
+}
+.Explore_box2 .owl-stage-outer{
+    padding: 30px;
+    margin-left: -300px;
+}
+
+.baner{
+    background-image: url(../assets/Background\ Images.png);
+    width: 1240px;
+    padding: 20px;
+    height: 344px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    display: flex;
+}
+
+.baner button{
+    background-color: #E50000;
+    width: 180px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+}
+.baner div{
+    margin: 70px;
+    
+    background-color: transparent;
+    color: white;
+}
+.baner div button{
+    color: white;
+}
+.baner p{
+    background-color: transparent;
+}
+.baner h2{
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.pos_icon_footer3 {
+    background-color: transparent;
+    display: flex;
+    width: 130px;
+    position: absolute;
+    margin-top: 150px;
+    left: 1250px;
+    gap: 10px;
+    color: white;
+    
+    
+
+}
+.pos_icon_footer3 div{
+    width: 256px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pos_icon_footer3 i{
     margin-left: 10px;
     color: white;
     width: 24px;
