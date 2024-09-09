@@ -269,5 +269,36 @@
     text-decoration: none;
     background-color: transparent;
     
+}    
+
+.pos_icon_footer2 {
+    background-color: transparent;
+    display: flex;
+    width: 130px;
+    position: absolute;
+    left: 1255px;
+    bottom: -2920px;
+    gap: 10px;
+    
+
+    
+
+}
+.pos_icon_footer2 div{
+    width: 256px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pos_icon_footer2 i{
+    margin-left: 10px;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+    
     
 }
