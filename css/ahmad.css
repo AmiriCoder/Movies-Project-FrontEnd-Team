@@ -120,16 +120,6 @@
 
 
 
-
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #111;
-    color: white;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-} */
-
 .pricing-section {
     padding: 50px 0;
     margin-top: 100px;
@@ -263,3 +253,79 @@
 }
 
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding: 15px 20px;
+
+}
+
+.logo img {
+    width: 150px;
+}
+
+.navss {
+    border: 5px solid rgb(31, 31, 31);
+    border-radius: 8px;
+    background-color: rgb(15, 15, 15);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.nav-links a {
+    margin-top: 120px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px 0;
+    position: relative;
+}
+
+.nav-links a:hover {
+    color: #e50914;
+}
+
+.nav-icons a {
+    margin-left: 15px;
+    height: 10px;
+    background-color: rgb(28, 28, 28);
+}
+
+.nav-icons img {
+    width: 70px;
+}
+
+.bor {
+    border-radius: 5px;
+
+
+}
+
+.slid-img {
+    justify-content: center;
+    text-align: center;
+}
